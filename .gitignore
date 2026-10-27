@@ -1,0 +1,38 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Datasets, archives, and reference PDFs (excluded from repo)
+VinaFood21/
+vinaFood21/
+data/
+lenet_project/
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+DS201_Lab2.pdf
+
+# Checkpoints & training artifacts
+outputs/
+checkpoints/
+runs/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+
+# Environments & OS/IDE files
+.venv/
+venv/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
